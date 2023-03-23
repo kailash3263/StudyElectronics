@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="This website is for B.Tech ECE 2nd year 1st semister, it has Notes, PAQ's, Numerical Problems of all units all subject and
+     lab Experiments, It has a search bar for your quick findings and many more" >
+
+     <meta name="keywords" content=", KnowElectonics ,pallavi Engineering college, kailash Choudhary, kailash Choudhary projects,  JNTU, B.Tech, Electonics Communication and Engineering, ECE, 2nd year, second year, Study material, Previous year Question
+     notes, hand written notes, learning, Electonics, Probability Theory and Stochastic Processes, Electonics Devices and Circuits, Signals and Systems, network analysis and Transmission lines, Digital System and Design" >
+<meta name="google-site-verification" content="5BtTQ4wioN3xsgSogRozWrDi7fDebm8Kh1wtSTGoY_c" />
+     <meta name="robots"  content="index, follow">
+    <link rel="preconnect" href="https://fonts.cgoogleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Lao:wght@200;400&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/png" href="favicon.png">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>StudyElectronics</title>
+</head>
+<body>
+    <div id="top">
+        <img id=top-img src="ece4.jpg" alt="">
+    <h1 class="top-name">
+        Electronics
+        <br> 
+        Communication 
+        <br>
+        Engineering 
+        <br>
+        <span  id="nam" >- A field of innovation and development </span> 
+    </h1>
+    </div>
+
+    
+    <!-- <select id="themeSelect"  > -->
+        
+        <div id="cc-themeS">
+        <select id="themeSelect" onchange="changeTheme()">
+            <option value="theme1">Theme 1</option>
+            <option value="theme2">Theme 2</option>
+            <option value="theme3">Theme 3</option>
+            <option value="theme4">Theme 4</option>
+            <option value="theme5">Theme 5</option>
+        </select>
+        <label id="cc"  for="themeSelect">Select a theme:  &nbsp </label>
+        </div>
+
+
+        <!-- <div id="search-wrapper"> -->
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search...">
+            <ul class="suggestions" id="suggestions"></ul>
+          </div>
+       <!-- </div> -->
+
+
+
+        <h1 id="sub-head" > II - I Subjects</h1>
+    <div id="subjects">
+
+    <a class="subs-link" href="edc-p.html" target="_blank" >
+         <div  id="s1" class="subs">
+            <div class="sub-name">
+               <h2 class="s-name">Electronics Devices and Circuits</h2>
+            </div>
+        </div>
+    </a>
+ 
+    <a class="subs-link" href="ss-p.html" target="_blank" >
+        <div class="subs" id="s2" >
+            <div class="sub-name">
+             <h2 class="s-name">Signals and Systems</h2>
+            </div>
+        </div>
+        </a>
+        <a class="subs-link" href="ptsp-p.html" target="_blank" >
+        <div class="subs" id="s3" >
+            <div class="sub-name">
+             <h2 class="s-name"  >Probability Theory and Stochastic
+                Processes</h2>
+            </div>
+        </div>
+        </a>
+        <a class="subs-link" href="natl-p.html" target="_blank" >
+        <div class="subs" id="s4" >
+            <div class="sub-name">
+             <h2 class="s-name"  >Network Anaysis and Transmission Lines</h2>
+            </div>
+        </div>
+        </a>
+        <a class="subs-link" href="dsd-p.html" target="_blank" >
+        <div class="subs" id="s5">
+            <div class="sub-name">
+             <h2 class="s-name"  >Digital System and Design</h2>
+            </div>
+        </div>
+        </a>
+        <a class="subs-link" href="bs-lab-p.html" target="_blank" >
+        <div class="subs" id="s6">
+            <div class="sub-name">
+             <h2 class="s-name"  >Basic Simulation Lab</h2>
+            </div>
+        </div >
+        </a>
+        <a class="subs-link" href="edc-lab-p.html" target="_blank" >
+        <div class="subs" id="s7">
+            <div class="sub-name"   >
+             <h2 class="s-name">Electronics Devices and Circuits Lab</h2>
+            </div>
+        </div>
+    </a>
+    <a class="subs-link" href="dsd-lab-p.html" target="_blank" >
+        <div class="subs" id="s8" >
+            <div class="sub-name"   >
+             <h2 class="s-name">Digital System and Design Lab</h2>
+            </div>
+        </div>
+        </a>
+    </div>
+    <div id="timer-box" > 
+         
+                <h1 class="time-head" >  Every <span id="scd">Second</span> Counts <br> you have left </h1>
+        
+    <div  id="time-box-head">
+
+              <div class="time-box"> 
+        
+                <p class="time-val"id="days" ></p>
+        
+               <h4 class="time-text" > days </h4>
+              </div>
+
+               <div class="time-box" >
+        
+                <p class="time-val" id="hour" ></p>
+        
+                 <h4 class="time-text" >hours</h4> 
+               </div>
+
+               <div class="time-box"  >
+        
+                <p class="time-val" id="min"></p>
+        
+                 <h4 class="time-text" >minutes</h4>
+               </div>
+
+               <div class="time-box" >
+        
+                <p class="time-val" id="sec"></p>
+        
+                 <h4 class="time-text" >seconds</h4>
+               </div>
+               
+</div>
+               <h1 class="time-head" > for your exam</h1>
+
+        </div>
+
+
+
+
+        <div  id="about-sir-head" >
+            <div id="about-sir" >
+                <center>
+                    <h1 id="about-sir-nam" > Head of Department</h1>
+                    <img  id="img-" src="hod-mam-pic.png" alt="">
+                    <h1 id="about-sir-name" >
+                       Dr T . Sravanti <span id="about-sir-qlfcn" > <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp -  M.tech , Phd </span> </h1>
+                       <a  class="icon-a" href="https://wa.me/919493391957"> <img class="icon" src="whatsapp-icon.png" alt="whatsapp"></a>
+                       <a  class="icon-a" href="tel:9493391957"> <img  class="icon" src="call-icon.png" alt="call"></a> 
+                       <a  class="icon-a" href="mailto:sravantipec@gmail.com"> <img  class="icon" id="mail-icon" src="mail-icon.png" alt="call"></a>
+                </center>
+                </div>
+        </div>
+
+		<footer class="footer-distributed">
+
+            
+            <div class="footer-left">
+                <center>
+                    <p id="footer-text"  class="footer-links">
+                        Your feedback is important to us <br> Please take a moment to share your thoughts about the website <br> 
+                        <span id="last-text" class="footer-links" ><a href="https://docs.google.com/forms/d/e/1FAIpQLSfKbiYNuj4FCIWyxIXFDZh_33DkEhmZyz9pWDjkgiZtVGEOCg/viewform?usp=sf_link"  target="_blank" >click here</a> to give feedback</span></p>
+                </center>
+                </div>
+                <div class="footer-right">
+                <center>
+                    <a href="https://wa.me/918919198801"><i class="fa fa-facebook"><img  style="width: 35px; height: 35px;" src="whatsapp-icon.png" alt=""></i></a>
+                    <a href="https://www.linkedin.com/in/kailash-choudhary-517aa6198"><i class="fa fa-linkedin"> <img style="width: 35px; height: 35px;" src="linkedin-round-icon.png" alt=""></i></a>
+                    <a href="tel:8919198801"><i class="fa fa-twitter"><img style="width: 35px; height: 35px;" src="call-icon.png" alt=""></i></a>
+                    <a href="https://www.instagram.com/kailash_choudhary1015/"><i class="fa fa-github"> <img style="width: 35px; height: 35px;" src="instagram-icon.png" alt=""> </i></a>
+                </center>
+                </div>
+
+		</footer>
+        <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+

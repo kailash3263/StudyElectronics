@@ -1,0 +1,106 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    /* background-color: yellow; */
+    background-color: #1e90ff;
+     
+}
+#about-sir{
+    position: relative;
+     margin: auto;
+     /* bottom: 50px; */
+    top: 100px;
+    width: 90%;
+    height: 600px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    box-shadow: 10px 10px 0px;
+    border-radius: 35px 35px 35px 35px;
+  /* border: 4px solid rgb(66, 100, 15); */
+}
+.btn{
+  position: relative;
+  margin-bottom: 30px;
+    /* color: white; */
+    background-color: blue;
+    float: left;
+    margin-left:14% ;
+    border-radius: 10px;
+    padding-left: 10px;
+    box-shadow: 2px 3px 0px;
+    width: auto;
+    height: 44px;
+    font-size: 22px;
+    
+}
+.btn:hover{
+  transition: .3s;
+  box-shadow: 0px 0px 0px;
+}
+.u-1{
+  width: 90%;
+  margin-top: 100px;
+  /* color: white; */
+  /* text-shadow: 1px 1px 10px; */
+  /* margin-bottom: 100px; */
+  border: 2px solid black;
+  border-radius: 20px 20px 20px;
+  height: auto;
+  background-color: #0048a0;
+  overflow: hidden;
+  box-shadow: 5px 7px 1px;
+}
+.u-1:hover{
+  transition: .5s;
+  box-shadow: 5px 7px 20px;
+}
+#ch-1{
+  margin-top: 50px;
+  /* background-color: gold; */
+}
+#ch-2{
+  /* background-color:  gold; */
+  
+}
+#ch-3{
+  /* background-color: gold; */
+  
+}
+#ch-4{
+   /* background-color: gold; */
+  
+}
+#ch-5{
+   /* background-color: gold; */
+  
+}
+#table{
+  position: relative;
+  padding: 40px;
+  align-items: center;
+  /* border-spacing: 12px; */
+  /* box-shadow: 5px 15px 1px; */
+  
+}
+th{
+  padding: 25px;
+  border: 1.5px solid black;
+  font-size: 25px;
+}
+#img-{
+  position: relative;
+  top: 40px;
+  width: 260px;
+  height: 260px;
+  box-shadow: 5px 5px 5px;
+  /* border: 4px solid black; */
+  border-radius: 95%;
+}
+.icon{
+  width: 50px;
+}
+.icon:hover{
+  transition: .5s;
+  width: 65px;
+}
